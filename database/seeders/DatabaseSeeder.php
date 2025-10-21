@@ -17,6 +17,7 @@ class DatabaseSeeder extends Seeder
     {
         $this->call([
             ServiceSeeder::class,
+            LandingContentSeeder::class,
         ]);
 
         User::factory()->create([
